@@ -8,3 +8,9 @@ def health():
     return {
         "status": "healthy"
     }
+
+@router.get("/version")
+def version():
+    return {
+        "version" : "1.0"
+    }
