@@ -14,3 +14,7 @@ def version():
     return {
         "version" : "1.0"
     }
+
+@router.get("/app")
+def app():
+    return {"name": "rule-search-service"}
